@@ -1,6 +1,6 @@
 #import list of features and list of activities
 getwd()
-setwd("./Data/UCI HAR Dataset")
+setwd("./UCI HAR Dataset")
 features<-read.table(file="features.txt")
 activity<-read.table(file="activity_labels.txt")
 colnames<-features$V2
