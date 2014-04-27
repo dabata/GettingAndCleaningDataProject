@@ -46,6 +46,7 @@ names(tidysumz)<-names(tidy)
 tidysumz<-tidysumz[,c(1,2,21,3:20)]
 
 #write data to txt file
+setwd("..")
 write.table(tidysumz, file = "tidysumz.txt", row.names = FALSE)
 
 
