@@ -6,7 +6,7 @@
 ==================
 
 * Download zip file in this link : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-* unzip file in the working directory ( get working directory with get.wd() R function)
+* unzip file in the working directory ( get working directory with getwd() R function)
 * Run run_analysis.R
 * the tidy summarized dataset "tidysumz.txt" is generated in the working directory (the same as the initial folder) 
 
